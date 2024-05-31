@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{714ae5b5-df54-41a6-ab7c-8ffe202841a7}</ProjectGuid>
+    <RootNamespace>KZW3proba2</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="KZW3_proba_2.cpp" />
+    <ClCompile Include="Machine.cpp" />
+    <ClCompile Include="Task.cpp" />
+    <ClCompile Include="TxtReader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_0.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_1.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_10.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_100.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_101.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_102.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_103.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_104.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_105.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_106.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_107.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_108.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_109.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_11.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_110.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_111.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_112.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_113.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_114.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_115.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_116.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_117.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_118.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_119.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_12.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_120.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_13.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_14.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_15.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_16.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_17.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_18.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_19.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_2.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_20.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_21.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_22.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_23.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_24.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_25.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_26.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_27.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_28.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_29.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_3.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_30.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_31.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_32.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_33.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_34.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_35.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_36.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_37.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_38.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_39.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_4.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_40.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_41.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_42.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_43.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_44.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_45.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_46.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_47.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_48.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_49.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_5.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_50.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_51.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_52.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_53.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_54.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_55.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_56.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_57.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_58.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_59.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_6.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_60.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_61.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_62.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_63.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_64.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_65.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_66.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_67.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_68.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_69.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_7.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_70.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_71.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_72.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_73.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_74.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_75.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_76.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_77.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_78.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_79.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_8.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_80.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_81.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_82.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_83.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_84.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_85.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_86.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_87.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_88.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_89.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_9.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_90.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_91.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_92.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_93.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_94.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_95.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_96.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_97.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_98.txt" />
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_99.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

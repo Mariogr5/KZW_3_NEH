@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Datas">
+      <UniqueIdentifier>{2954f9c2-d68d-4aec-9184-7acb2203e615}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="KZW3_proba_2.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="TxtReader.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Task.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Machine.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_0.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_1.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_2.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_3.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_4.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_5.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_6.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_7.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_8.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_9.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_10.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_11.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_12.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_13.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_14.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_15.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_16.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_17.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_18.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_19.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_20.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_21.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_22.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_23.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_24.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_25.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_26.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_27.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_28.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_29.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_30.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_31.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_32.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_33.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_34.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_35.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_36.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_37.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_38.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_39.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_40.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_41.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_42.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_43.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_44.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_45.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_46.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_47.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_48.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_49.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_50.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_51.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_52.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_53.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_54.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_55.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_56.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_57.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_58.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_59.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_60.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_61.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_62.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_63.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_64.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_65.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_66.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_67.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_68.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_69.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_70.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_71.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_72.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_73.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_74.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_75.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_76.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_77.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_78.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_79.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_80.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_81.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_82.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_83.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_84.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_85.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_86.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_87.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_88.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_89.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_90.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_91.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_92.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_93.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_94.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_95.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_96.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_97.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_98.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_99.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_100.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_101.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_102.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_103.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_104.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_105.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_106.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_107.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_108.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_109.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_110.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_111.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_112.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_113.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_114.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_115.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_116.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_117.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_118.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_119.txt">
+      <Filter>Datas</Filter>
+    </Text>
+    <Text Include="..\..\KZW_3\KZW_3\Datas\segment_120.txt">
+      <Filter>Datas</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
